@@ -1,6 +1,6 @@
 *, body, html{
-  background: #245;
-  color: #fff;
+  background: #deb;
+  color: #245;
 }
 
 .container{
@@ -21,9 +21,10 @@ li{
 }
 
 button{
-  font-size: 2em;
-  background: none;
-  border: 0;
+  font-size: 30px;
+  background: unset;
+  border: 0.05rem solid #245;
+  border-radius: 7.5px;
   padding: 0;
   cursor: pointer;
 }

@@ -8,3 +8,8 @@
   width: 100px;
   height: auto;
 }
+
+.instructions p{
+  font-size: large;
+  font-weight: 500;
+}
