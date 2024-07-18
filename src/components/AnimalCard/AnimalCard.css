@@ -1,0 +1,76 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.wrapper h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    width: 100%;
+    color: #245;
+}
+
+.wrapper h2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    width: 100%;
+    color: #245;
+}
+
+.wrapper h3{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    width: 100%;
+    color: #245;
+}
+
+.wrapper h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    color: #245;
+}
+
+.diet{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    color: #245;
+    padding: 0 0 25px 0;
+}
+
+.animal-wrapper{
+    border: 0.05rem solid #245;
+    border-radius: 7.5px;
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+}
+
+.animal-wrapper button{
+    font-size: 15px;
+    font-weight: 500;
+    border: 0.05rem solid #245;
+    background-color: #245;
+    color: #deb;
+    border-radius: 7.5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.animal-wrapper button:hover{
+    background-color: #deb;
+    color: #245;
+}
