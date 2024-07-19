@@ -41,7 +41,7 @@ function App() {
   const greeting = 'greeting'; // variable declaration
   return (
     <div className='container'>
-      <h1 id={greeting}>React JavaScript</h1>
+      <h1 id={greeting}>Animals</h1>
 
       <Instructions />
 
