@@ -10,6 +10,7 @@
 }
 
 .instructions p{
+  padding: 5px;
   font-size: large;
   font-weight: 500;
 }
