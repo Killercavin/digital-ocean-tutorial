@@ -1,0 +1,28 @@
+.product span {
+    font-size: 25px;
+}
+
+.product-wrapper {
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-btn{
+    font-size: 15px;
+    font-weight: 500;
+    border: 0.05rem solid #245;
+    background-color: #245;
+    color: #deb;
+    border-radius: 7.5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px 50px;
+}
+
+.product-btn:hover{
+    background-color: #deb;
+    color: #245;
+}

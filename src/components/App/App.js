@@ -3,6 +3,7 @@ import Instructions from '../Instructions/Instructions';
 import './App.css';
 import AnimalCard from '../AnimalCard/AnimalCard';
 import data from './data';
+import Product from '../Product/Product';
 
 
 // Function to display the emoji name
@@ -29,7 +30,7 @@ const emojis = [
 // showAdditionalData function
 
 function showAdditional(additional){
-  const alertInformation =Object.entries(additional)
+  const alertInformation = Object.entries(additional)
   .map(information => `${information[0]}: ${information[1]}`)
   .join('\n');
   alert(alertInformation);
@@ -73,6 +74,8 @@ function App() {
           />
         ))}
       </div>
+
+      <Product />
 
     </div>
   );
